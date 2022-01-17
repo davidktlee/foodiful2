@@ -4,11 +4,68 @@
 
   <head>
     <title>Foodiful의 다식</title>
+    <style>
+      #dasik-grid {
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: 0.1fr 1fr;
+        background-color: rgb(240, 224, 255);
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 50px;
+        border-bottom: 1px solid black;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin: 0;
+        background-color: antiquewhite;
+      }
+
+      h1>a {
+        color: rgb(124, 26, 124);
+        text-decoration: none;
+      }
+
+      ul {
+        border-right: 1px solid black;
+        width: 150px;
+        height: 700px;
+        font-size: 25px;
+        margin: 0;
+        padding-right: 15px;
+        padding-top: 15px;
+        color: rgb(118, 118, 118);
+        list-style-type: circle;
+      }
+
+      .eat {
+        margin-top: 70px;
+      }
+
+      .content {
+        font-size: 20px;
+        padding-top: 20px;
+      }
+    </style>
+
   <body>
-    <h1>푸디풀의 다식</h1>
-    <h2><a href="https://ko.dict.naver.com/#/entry/koko/c7e80f6b5d9f4b7c9ef6c904f2cc27bb" target="_blank">
-        다식이란?</a></h2>
-    <p><strong>우리나라 고유 과자의 하나. 녹말ㆍ송화ㆍ신감채ㆍ검은깨 따위의 가루를 꿀이나 조청에 반죽하여 다식판에 박아 만들며, 흰색ㆍ노란색ㆍ검은색 따위의 여러 색깔로 구색을 맞춘다.</strong></p>
+    <h1><a href="menu1.html">
+        푸디풀 다식
+      </a></h1>
+    <div id="dasik-grid">
+      <div>
+        <ul>
+          <p>다식이란?</p>
+          <p class="eat">먹는방법</p>
+        </ul>
+
+      </div>
+      <div class="content">
+        <p>우리나라 고유 과자의 하나. 녹말ㆍ송화ㆍ신감채ㆍ검은깨 따위의 가루를 꿀이나 조청에 반죽하여 다식판에 박아 만들며, 흰색ㆍ노란색ㆍ검은색 따위의 여러 색깔로 구색을 맞춘다.</p>
+        <p class="eat">따듯한 차와 함께 먹는다</p>
+      </div>
+    </div>
   </body>
   </head>
 
